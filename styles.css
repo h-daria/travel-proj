@@ -1,7 +1,10 @@
 header {
     position: absolute;
-    top: 10px;
+    top: 0;
     width: 100%;
+    background-color: rgba(152, 162, 170, 0.4);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    /* border-radius: 8px; */
 }
 #container {
     padding: 0;
@@ -14,15 +17,6 @@ header {
 
 body {
     margin: 0;
-}
-
-#page-logo a {
-    font-family: 'Yellowtail', sans-serif;
-    font-size: 40px;
-    color: rgb(252, 253, 253);
-    padding: 10px 10px;
-    text-shadow: 1px 1px 2px black;
-    text-decoration: none;
 }
 
 header ul {
