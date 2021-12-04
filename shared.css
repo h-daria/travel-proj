@@ -1,3 +1,11 @@
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: linear-gradient(90deg, rgba(255, 180, 113, 0.7), rgba(56, 130, 199, 0.7));
+}
+
 header {
     position: absolute;
     top: 0;
@@ -47,24 +55,6 @@ nav a:hover {
     text-decoration: none;
     text-shadow: none;
     background-color: rgb(255, 240, 101);
-}
-
-h1 {
-    font-family: 'Outfit' ,sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-h2 {
-    font-family: 'Outfit' ,sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    margin-top: 0;
 }
 
 footer {
