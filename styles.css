@@ -1,48 +1,6 @@
-header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: rgba(152, 162, 170, 0.4);
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-}
-#container {
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
 body {
     margin: 0;
     background: linear-gradient(to right, rgba(255, 180, 113, 0.7), rgba(56, 130, 199, 0.7));
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    height: 100%;
-}
-
-nav a {
-    font-family: 'Outfit: Extra-light 200', sans-serif;
-    font-size: 14px;
-    height: 100%;
-    text-shadow: 1px 1px 2px black;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0 15px 0 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav a:hover {
-    color: rgb(5, 5, 5);
-    text-decoration: none;
-    text-shadow: none;
-    background-color: rgb(255, 240, 101);
 }
 
 #greetings {
@@ -88,6 +46,8 @@ nav a:hover {
     /* background-color: rgb(56, 130, 199); */
     /* background-color: rgb(255, 180, 113); */
     background: linear-gradient(to right, rgba(255, 180, 113, 0.7), rgba(56, 130, 199, 0.7));
+    justify-content: center;
+    padding-top: 20px;
 }
 
 #popular-directions ul {
@@ -103,6 +63,8 @@ nav a:hover {
     font-family: 'Outfit', sans-serif;
     font-weight: 200;
     font-size: 20px;    
+    text-align: center;
+    text-transform: uppercase;
     display: list-item;  
 }
 
@@ -113,6 +75,9 @@ nav a:hover {
     box-shadow: 2px 2px 4px rgb(68, 67, 67);
     object-fit: cover;
 }
+
+
+
 
 
 
