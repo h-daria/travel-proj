@@ -1,0 +1,28 @@
+header {
+    position: static;
+}
+
+main li {
+    display: flex;
+    height: 230px;
+    width: 50%;
+    background-color: seashell;
+    border-radius: 8px;
+}
+
+main li img {
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.item-info {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.item-info p {
+    margin-bottom: 0;
+}

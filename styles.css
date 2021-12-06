@@ -3,6 +3,14 @@ body {
     background: linear-gradient(to right, rgba(255, 180, 113, 0.7), rgba(56, 130, 199, 0.7));
 }
 
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(152, 162, 170, 0.4);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
 #greetings {
     height: 900px;
     background-image: url("/images/background/nature-1638476940984-6179.jpg");
