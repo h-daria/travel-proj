@@ -1,28 +1,68 @@
+@media screen and (max-width: 700px) {
+    .item-text {
+        font-size: 12px !important;
+    }
+    ul {
+        padding: 5px;
+    }
+}
 header {
     position: static;
 }
 
 main li {
     display: flex;
-    height: 230px;
-    width: 50%;
+    height: 250px;
+    max-width: 650px;
     background-color: seashell;
     border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
 }
 
 main li img {
     height: 100%;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    width: 50%;
+    object-fit: cover;
 }
 
+
 .item-info {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-info h2 {
+    font-family: 'Outfit' ,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.item-info p{
     font-family: 'Outfit', sans-serif;
     font-weight: 200;
     font-size: 18px;
-    padding: 0 30px;
+    margin: 0;
 }
 
-.item-info p {
-    margin-bottom: 0;
+.actions {
+    text-align: right;
+    margin-bottom: 20px;
 }
+
+.actions a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(53, 164, 255);
+    display: inline-block;
+    padding: 5px;
+}
+
+.actions a:hover {
+    background-color: rgba(117, 188, 255, 0.5);
+    border-radius: 5px;
+}
+
