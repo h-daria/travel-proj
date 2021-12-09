@@ -11,16 +11,17 @@ header {
 }
 
 main ul {
-    width: 1300px;
+    /* width: 1200px; */
+    width: 90%;
     margin: 50px auto 50px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 20px;
+    padding: 0;
 }
 
 main li {
-    display: flex; 
-    /* width: 650px; */
+    display: flex;
     height: 250px;
     background-color: seashell;
     border-radius: 8px;
