@@ -1,28 +1,27 @@
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .item-text {
         font-size: 12px !important;
     }
     ul {
         padding: 5px;
     }
-}
+} */
 header {
     position: static;
 }
 
 main ul {
-    /* width: 1200px; */
     width: 90%;
-    margin: 50px auto 50px auto;
+    margin: 3.12rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px 20px;
+    gap: 1.25rem 1.25rem;
     padding: 0;
 }
 
 main li {
     display: flex;
-    height: 250px;
+    height: 16rem;
     background-color: seashell;
     border-radius: 8px;
     overflow: hidden;
@@ -40,7 +39,7 @@ main li img {
 
 
 .item-info {
-    padding: 0 30px;
+    padding: 0 1.9rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,29 +47,29 @@ main li img {
 .item-info h2 {
     font-family: 'Outfit' ,sans-serif;
     font-weight: 400;
-    font-size: 30px;
-    margin: 15px auto;
+    font-size: 1.9rem;
+    margin: 1rem auto;
 }
 .item-info p{
     font-family: 'Outfit', sans-serif;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 1.12rem;
     margin: 0;
 }
 
 .actions {
     text-align: right;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .actions a {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     color: rgb(53, 164, 255);
     display: inline-block;
-    padding: 5px;
+    padding: 0.3rem;
 }
 
 .actions a:hover {
