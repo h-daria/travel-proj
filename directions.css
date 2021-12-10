@@ -39,7 +39,7 @@ main li img {
 
 
 .item-info {
-    padding: 0 1.9rem;
+    padding: 0 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,3 +77,28 @@ main li img {
     border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+    main ul {
+        grid-template-columns: none;
+        display: flex;
+        flex-flow: column;
+        
+    }   
+}
+
+@media (max-width: 1280px) {
+    .item-info {
+        padding: 0 0.9rem;
+    }
+    .item-info h2 {
+        font-size: 1.2rem;
+        margin: 0.5rem auto;
+    }
+    .item-info p {
+        font-size: 1rem;
+    }
+    .actions a {
+        font-size: 0.9rem;
+        padding: 0.1rem;
+    }
+}
