@@ -83,7 +83,7 @@ h2 {
     text-align: center;
 }
 
-.direction a {
+button {
     font-family: 'Outfit', sans-serif;
     font-weight: 200;
     font-size: 1.25rem;
@@ -94,9 +94,12 @@ h2 {
     margin: 0 auto 1.25rem auto;
     padding: 0.5rem;
     width: 15rem;
+    background-color: rgba(152, 162, 170, 0);
+    border-radius: 5px;
+    border-style: none;
 }
 
-.direction a:hover {
+button:hover {
     color: seashell;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
