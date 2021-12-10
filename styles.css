@@ -80,10 +80,6 @@ h2 {
     justify-content: space-around;
     margin-bottom: 6.25rem;
     padding: 0;
-}
-
-.direction p {
-    width: 100%;
     text-align: center;
 }
 
@@ -95,13 +91,14 @@ h2 {
     display: block;
     text-decoration: none;
     color: black;
-    margin-bottom: 1.25rem;
+    margin: 0 auto 1.25rem auto;
     padding: 0.5rem;
+    width: 15rem;
 }
 
 .direction a:hover {
     color: seashell;
-    background-color: rgba(157, 183, 204, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
 }
 
