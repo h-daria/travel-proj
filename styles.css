@@ -27,7 +27,7 @@ h1 {
 }
 
 #greetings-content {
-    width: 56.25rem;
+    width: 60%;
     background-color: rgba(152, 162, 170, 0.6);
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
@@ -93,7 +93,7 @@ h2 {
     display: block;
     margin: 0 auto 1.25rem auto;
     padding: 0.5rem;
-    width: 15rem;
+    width: 55%;
     background-color: rgba(152, 162, 170, 0);
     border-radius: 5px;
     border-style: none;
@@ -116,6 +116,25 @@ h2 {
 
 .direction {
     width: 25%;
+}
+
+@media (max-width: 48rem) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    #greetings-content {
+        padding: 2.12rem 1rem;
+    }
+    #greetings-content a {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .direction a {
+        font-size: 0.9rem;
+        width: 60%;
+    }
 }
 
 
