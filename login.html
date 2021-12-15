@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500&family=Yellowtail&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<body>
+        <header id="container">
+            <div id="page-logo">
+                <a href="/index.html">Travel With Us!</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="directions.html">Directions</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+            <a href="#side-drawer" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </header>
+        <aside id="side-drawer">
+            <header>
+                <a href="#" class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="directions.html">Directions</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section>
+                <div class="typing-section">
+                    <h1>Log In</h1>
+                    <!-- в action писать куда перенаправлять форму -->
+                    <form action="/user-data" method="GET">
+                    <ul>  
+                        <li>
+                            <p> <label for="userlogin">Enter your email or phone number</label>
+                                <input type="text" name="user-login" id="userlogin"></p>
+                        </li>
+                        <li>
+                            <p> <label for="password">Enter your password</label>
+                                <input type="text" name="password" id="password"></p>
+                        </li>
+                    </ul>
+                    </form>
+                    <button>Log In</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <li>
+                    <a href="http://www.instagram.com"><img src="/images/icons/insta.png" alt="Instagram icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="/images/icons/facebook.png" alt="Facebook icon" title="Facebook"></a>
+                </li>
+            </ul>
+        </footer>
+</body>
+</html>
