@@ -100,7 +100,8 @@ header ul {
 
 #side-drawer ul {
     list-style: none;
-    padding-top: 1.5rem;
+    padding-top: 5%;
+    margin: 0;
 }
 
 #side-drawer li {
