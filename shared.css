@@ -3,6 +3,20 @@ html{
     width: 100%;
 }
 
+html::-webkit-scrollbar {
+    width: 0.65rem;
+  }
+   
+  html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 175, 175);
+    outline: 1px solid rgb(118, 132, 145);
+    border-radius: 5px;
+  }
+
 body {
     margin:0;
     background: linear-gradient(90deg, rgba(255, 180, 113, 0.7), rgba(56, 130, 199, 0.7));
@@ -112,7 +126,7 @@ header ul {
 }
 
 #side-drawer li {
-    padding: 0 1rem;
+    padding: 0 0.1rem;
 }
 #side-drawer nav a {
     font-family: 'Outfit', sans-serif;
@@ -182,5 +196,11 @@ footer img {
     footer img {
         height: 80%;
         width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    #side-drawer nav a {
+        font-size: 0.7rem;
     }
 }

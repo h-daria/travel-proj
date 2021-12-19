@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="new-account.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500&family=Yellowtail&display=swap" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Travel With Us!</title>
+</head>
+<body>
+    <header id="container">
+        <div id="page-logo">
+            <a href="/index.html">Travel With Us!</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="new-account.html">New Account</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="directions.html">Directions</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+        <a href="#side-drawer" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+    <aside id="side-drawer">
+        <header>
+            <a href="#" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="new-account.html">New Account</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="directions.html">Directions</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section>
+            <div class="typing-section">
+                <h1>Create New Account</h1>
+                <form action="" method="">
+                <ul class="userdata">  
+                    <li>
+                     <label for="username">Your Name <span>*</span></label>
+                     <input type="text" name="username" id="username" required placeholder="name">
+                     <label for="userlogin">Your Age</label>
+                     <input type="number" name="user-age" id="user-age" min="18" max="121">
+                     <label for="userbirthday">Your Birthday</label>
+                     <input type="date" name="userbirthday" id="userbirthday" min="1900-01-01" max="2003-01-01">
+                     <label for="userlogin">Enter your email <span>*</span></label>
+                     <input type="email" name="user-login" id="userlogin" required placeholder="email@.com">
+                     <label for="password">Enter your password <span>*</span></label>
+                     <input type="password" name="password" id="password" required minlength="8" placeholder="********">
+                    </li>
+                    <div class="user-message">
+                        <label for="user-message">Your message</label>
+                        <textarea name="user-message" id="user-message"></textarea>
+                    </div>
+                    <label for="totem-selector">Choose Your totem animal</label>
+                    <select name="totem" id="totem-selector">
+                        <option>Snake</option>
+                        <option>Bear</option>
+                        <option>Lion</option>
+                        <option>Horse</option>
+                        <option>Wolf</option>
+                    </select>
+                </ul>
+                <hr>
+
+                    <h2>How should we verify your account?</h2>
+                    <div class="verify">
+                        <input type="radio" name="verify" id="verify-text-message" value="message" required/>
+                        <label for="verify-text-message">By text message</label>
+                    </div>
+                    <div class="verify">
+                        <input type="radio" name="verify" id="verify-phone" value="phone" required/>
+                        <label for="verify-phone">By a phone call</label>
+                    </div>
+                    <div class="verify">
+                        <input type="radio" name="verify" id="verify-email" value="email" required/>
+                        <label for="verify-email">By an email</label>
+                    </div>
+                    <div class="verify">
+                        <input type="checkbox" id="agreement" name="terms" required/>
+                        <label for="agree-terms">Agree to all terms</label>
+                    </div>
+                    <button type="submit">Create An Account</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="http://www.instagram.com"><img src="/images/icons/insta.png" alt="Instagram icon"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/"><img src="/images/icons/facebook.png" alt="Facebook icon" title="Facebook"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

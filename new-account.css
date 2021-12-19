@@ -6,9 +6,7 @@ header {
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
 
-
 section {
-    height: 56.25rem;
     background-image: url("/images/background/nature-1638476940984-6179.jpg");
     background-position: center;
     background-size: cover;
@@ -16,19 +14,17 @@ section {
     justify-content: space-around;
 }
 
+
 /* вот это всё можно в form прописать */
 .typing-section {
     width: 40%;
-    height: 40%;
+    height: 80%;
     background-color: rgba(107, 188, 255, 0.8);
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
     text-align: center;
-    padding: 3.12rem 0;
-    margin: 0 auto;
-    position: relative;
-    top: 12.5rem;
-
+    padding: 2.12rem 0;
+    margin: 5rem auto;
 }
 
 
@@ -45,33 +41,82 @@ h1 {
     text-align: left;
 }
 
-.typing-section p {
+.typing-section label {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.9);
 }
 
-input {
+.typing-section input {
     display: block;
-    width: 60%;
+    width: 80%;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     border-radius: 5px;
     border-style: none;
+    margin: 0.4rem 0 1rem 0;
+    padding: 0.3rem;
 }
 
-input:focus {
+.typing-section input:focus {
     background-color: rgb(221, 236, 255);
     border: 2px solid white;
     outline: none;
+    padding: 0.3rem;
+}
+
+.user-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message textarea, select {
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    min-width: 60%;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0.3rem;
+    margin: 0.4rem 0 1rem 0;
+}
+
+.user-message textarea:focus {
+    background-color: rgb(221, 236, 255);
+    border: 2px solid white;
+    outline: none;
+    padding: 0.3rem;
+}
+
+h2 {
+    font-family: 'Outfit' ,sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.verify {
+    display: flex;
+}
+
+.verify input {
+    width: auto;
+    margin-left: 3.12rem;
+}
+
+.verify label {
+    padding-left: 0.5rem;
 }
 
 button {
-    display: block;
-    margin: 5rem auto;
     width: 25%;
     height: 10%;
     padding: 0.6rem;
@@ -89,6 +134,7 @@ button {
 button:hover {
     color: rgba(17, 17, 17, 0.6);
     background-color: rgb(255, 240, 101);
+    cursor: pointer;
 }
 footer ul {
     margin-top: 0;
@@ -96,11 +142,11 @@ footer ul {
 
 @media (max-width: 48rem) {
     .typing-section {
-        width: 70%;
-        height: 35%;
+        width: 80%;
+        height: 80%;
     }
     input {
-        width: 80%;
+        width: 90%;
     }
     button {
         margin: 2rem auto;
